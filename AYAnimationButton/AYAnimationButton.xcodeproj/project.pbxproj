@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB323E71EB85D4000D0247D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB323E61EB85D4000D0247D /* main.m */; };
+		3BB323EA1EB85D4000D0247D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB323E91EB85D4000D0247D /* AppDelegate.m */; };
+		3BB323ED1EB85D4000D0247D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB323EC1EB85D4000D0247D /* ViewController.m */; };
+		3BB323F01EB85D4000D0247D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB323EE1EB85D4000D0247D /* Main.storyboard */; };
+		3BB323F21EB85D4000D0247D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB323F11EB85D4000D0247D /* Assets.xcassets */; };
+		3BB323F51EB85D4000D0247D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB323F31EB85D4000D0247D /* LaunchScreen.storyboard */; };
+		3BB324001EB85D4000D0247D /* AYAnimationButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB323FF1EB85D4000D0247D /* AYAnimationButtonUITests.m */; };
+		3BB3240D1EB85EF200D0247D /* AYAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB3240C1EB85EF200D0247D /* AYAnimationButton.m */; };
+		3BB324251EB881E900D0247D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB3241E1EB881E900D0247D /* 1.png */; };
+		3BB324261EB881E900D0247D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB3241F1EB881E900D0247D /* 2.png */; };
+		3BB324271EB881E900D0247D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324201EB881E900D0247D /* 3.png */; };
+		3BB324281EB881E900D0247D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324211EB881E900D0247D /* 4.png */; };
+		3BB324291EB881E900D0247D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324221EB881E900D0247D /* 5.png */; };
+		3BB3242A1EB881E900D0247D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324231EB881E900D0247D /* 6.png */; };
+		3BB3242B1EB881E900D0247D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324241EB881E900D0247D /* 7.png */; };
+		3BB324341EB9610500D0247D /* 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BB3242C1EB9610500D0247D /* 1.tiff */; };
+		3BB324351EB9610500D0247D /* 2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BB3242D1EB9610500D0247D /* 2.tiff */; };
+		3BB324361EB9610500D0247D /* 3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BB3242E1EB9610500D0247D /* 3.tiff */; };
+		3BB324371EB9610500D0247D /* 4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BB3242F1EB9610500D0247D /* 4.tiff */; };
+		3BB324381EB9610500D0247D /* 5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324301EB9610500D0247D /* 5.tiff */; };
+		3BB324391EB9610500D0247D /* 6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324311EB9610500D0247D /* 6.tiff */; };
+		3BB3243A1EB9610500D0247D /* 7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324321EB9610500D0247D /* 7.tiff */; };
+		3BB3243B1EB9610500D0247D /* 8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3BB324331EB9610500D0247D /* 8.tiff */; };
+		3BB324411EB96BB500D0247D /* AYImagesAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB324401EB96BB500D0247D /* AYImagesAnimationButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB323FC1EB85D4000D0247D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB323DA1EB85D4000D0247D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB323E11EB85D4000D0247D;
+			remoteInfo = AYAnimationButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB323E21EB85D4000D0247D /* AYAnimationButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYAnimationButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB323E61EB85D4000D0247D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BB323E81EB85D4000D0247D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BB323E91EB85D4000D0247D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BB323EB1EB85D4000D0247D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BB323EC1EB85D4000D0247D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BB323EF1EB85D4000D0247D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB323F11EB85D4000D0247D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB323F41EB85D4000D0247D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BB323F61EB85D4000D0247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB323FB1EB85D4000D0247D /* AYAnimationButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYAnimationButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB323FF1EB85D4000D0247D /* AYAnimationButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYAnimationButtonUITests.m; sourceTree = "<group>"; };
+		3BB324011EB85D4000D0247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB3240B1EB85EF200D0247D /* AYAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYAnimationButton.h; sourceTree = "<group>"; };
+		3BB3240C1EB85EF200D0247D /* AYAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYAnimationButton.m; sourceTree = "<group>"; };
+		3BB3241E1EB881E900D0247D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3BB3241F1EB881E900D0247D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3BB324201EB881E900D0247D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3BB324211EB881E900D0247D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3BB324221EB881E900D0247D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		3BB324231EB881E900D0247D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		3BB324241EB881E900D0247D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		3BB3242C1EB9610500D0247D /* 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 1.tiff; sourceTree = "<group>"; };
+		3BB3242D1EB9610500D0247D /* 2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 2.tiff; sourceTree = "<group>"; };
+		3BB3242E1EB9610500D0247D /* 3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 3.tiff; sourceTree = "<group>"; };
+		3BB3242F1EB9610500D0247D /* 4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 4.tiff; sourceTree = "<group>"; };
+		3BB324301EB9610500D0247D /* 5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 5.tiff; sourceTree = "<group>"; };
+		3BB324311EB9610500D0247D /* 6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 6.tiff; sourceTree = "<group>"; };
+		3BB324321EB9610500D0247D /* 7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 7.tiff; sourceTree = "<group>"; };
+		3BB324331EB9610500D0247D /* 8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 8.tiff; sourceTree = "<group>"; };
+		3BB3243F1EB96BB500D0247D /* AYImagesAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYImagesAnimationButton.h; sourceTree = "<group>"; };
+		3BB324401EB96BB500D0247D /* AYImagesAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYImagesAnimationButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB323DF1EB85D4000D0247D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB323F81EB85D4000D0247D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB323D91EB85D4000D0247D = {
+			isa = PBXGroup;
+			children = (
+				3BB323E41EB85D4000D0247D /* AYAnimationButton */,
+				3BB323FE1EB85D4000D0247D /* AYAnimationButtonUITests */,
+				3BB323E31EB85D4000D0247D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB323E31EB85D4000D0247D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB323E21EB85D4000D0247D /* AYAnimationButton.app */,
+				3BB323FB1EB85D4000D0247D /* AYAnimationButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB323E41EB85D4000D0247D /* AYAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				3BB3241D1EB881E900D0247D /* testPic */,
+				3BB3240A1EB85ED700D0247D /* AYAnimationButton */,
+				3BB323E81EB85D4000D0247D /* AppDelegate.h */,
+				3BB323E91EB85D4000D0247D /* AppDelegate.m */,
+				3BB323EB1EB85D4000D0247D /* ViewController.h */,
+				3BB323EC1EB85D4000D0247D /* ViewController.m */,
+				3BB323EE1EB85D4000D0247D /* Main.storyboard */,
+				3BB323F11EB85D4000D0247D /* Assets.xcassets */,
+				3BB323F31EB85D4000D0247D /* LaunchScreen.storyboard */,
+				3BB323F61EB85D4000D0247D /* Info.plist */,
+				3BB323E51EB85D4000D0247D /* Supporting Files */,
+			);
+			path = AYAnimationButton;
+			sourceTree = "<group>";
+		};
+		3BB323E51EB85D4000D0247D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB323E61EB85D4000D0247D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BB323FE1EB85D4000D0247D /* AYAnimationButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB323FF1EB85D4000D0247D /* AYAnimationButtonUITests.m */,
+				3BB324011EB85D4000D0247D /* Info.plist */,
+			);
+			path = AYAnimationButtonUITests;
+			sourceTree = "<group>";
+		};
+		3BB3240A1EB85ED700D0247D /* AYAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				3BB3240B1EB85EF200D0247D /* AYAnimationButton.h */,
+				3BB3240C1EB85EF200D0247D /* AYAnimationButton.m */,
+				3BB3243F1EB96BB500D0247D /* AYImagesAnimationButton.h */,
+				3BB324401EB96BB500D0247D /* AYImagesAnimationButton.m */,
+			);
+			path = AYAnimationButton;
+			sourceTree = "<group>";
+		};
+		3BB3241D1EB881E900D0247D /* testPic */ = {
+			isa = PBXGroup;
+			children = (
+				3BB3242C1EB9610500D0247D /* 1.tiff */,
+				3BB3242D1EB9610500D0247D /* 2.tiff */,
+				3BB3242E1EB9610500D0247D /* 3.tiff */,
+				3BB3242F1EB9610500D0247D /* 4.tiff */,
+				3BB324301EB9610500D0247D /* 5.tiff */,
+				3BB324311EB9610500D0247D /* 6.tiff */,
+				3BB324321EB9610500D0247D /* 7.tiff */,
+				3BB324331EB9610500D0247D /* 8.tiff */,
+				3BB3241E1EB881E900D0247D /* 1.png */,
+				3BB3241F1EB881E900D0247D /* 2.png */,
+				3BB324201EB881E900D0247D /* 3.png */,
+				3BB324211EB881E900D0247D /* 4.png */,
+				3BB324221EB881E900D0247D /* 5.png */,
+				3BB324231EB881E900D0247D /* 6.png */,
+				3BB324241EB881E900D0247D /* 7.png */,
+			);
+			path = testPic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB323E11EB85D4000D0247D /* AYAnimationButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB324041EB85D4000D0247D /* Build configuration list for PBXNativeTarget "AYAnimationButton" */;
+			buildPhases = (
+				3BB323DE1EB85D4000D0247D /* Sources */,
+				3BB323DF1EB85D4000D0247D /* Frameworks */,
+				3BB323E01EB85D4000D0247D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYAnimationButton;
+			productName = AYAnimationButton;
+			productReference = 3BB323E21EB85D4000D0247D /* AYAnimationButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BB323FA1EB85D4000D0247D /* AYAnimationButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB324071EB85D4000D0247D /* Build configuration list for PBXNativeTarget "AYAnimationButtonUITests" */;
+			buildPhases = (
+				3BB323F71EB85D4000D0247D /* Sources */,
+				3BB323F81EB85D4000D0247D /* Frameworks */,
+				3BB323F91EB85D4000D0247D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB323FD1EB85D4000D0247D /* PBXTargetDependency */,
+			);
+			name = AYAnimationButtonUITests;
+			productName = AYAnimationButtonUITests;
+			productReference = 3BB323FB1EB85D4000D0247D /* AYAnimationButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB323DA1EB85D4000D0247D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Andy;
+				TargetAttributes = {
+					3BB323E11EB85D4000D0247D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 526L66BS49;
+						ProvisioningStyle = Automatic;
+					};
+					3BB323FA1EB85D4000D0247D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3BB323E11EB85D4000D0247D;
+					};
+				};
+			};
+			buildConfigurationList = 3BB323DD1EB85D4000D0247D /* Build configuration list for PBXProject "AYAnimationButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB323D91EB85D4000D0247D;
+			productRefGroup = 3BB323E31EB85D4000D0247D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB323E11EB85D4000D0247D /* AYAnimationButton */,
+				3BB323FA1EB85D4000D0247D /* AYAnimationButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB323E01EB85D4000D0247D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB324381EB9610500D0247D /* 5.tiff in Resources */,
+				3BB324361EB9610500D0247D /* 3.tiff in Resources */,
+				3BB3243A1EB9610500D0247D /* 7.tiff in Resources */,
+				3BB3243B1EB9610500D0247D /* 8.tiff in Resources */,
+				3BB323F51EB85D4000D0247D /* LaunchScreen.storyboard in Resources */,
+				3BB324391EB9610500D0247D /* 6.tiff in Resources */,
+				3BB324281EB881E900D0247D /* 4.png in Resources */,
+				3BB324251EB881E900D0247D /* 1.png in Resources */,
+				3BB324351EB9610500D0247D /* 2.tiff in Resources */,
+				3BB3242A1EB881E900D0247D /* 6.png in Resources */,
+				3BB324261EB881E900D0247D /* 2.png in Resources */,
+				3BB324271EB881E900D0247D /* 3.png in Resources */,
+				3BB324291EB881E900D0247D /* 5.png in Resources */,
+				3BB3242B1EB881E900D0247D /* 7.png in Resources */,
+				3BB324341EB9610500D0247D /* 1.tiff in Resources */,
+				3BB323F21EB85D4000D0247D /* Assets.xcassets in Resources */,
+				3BB323F01EB85D4000D0247D /* Main.storyboard in Resources */,
+				3BB324371EB9610500D0247D /* 4.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB323F91EB85D4000D0247D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB323DE1EB85D4000D0247D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB3240D1EB85EF200D0247D /* AYAnimationButton.m in Sources */,
+				3BB324411EB96BB500D0247D /* AYImagesAnimationButton.m in Sources */,
+				3BB323ED1EB85D4000D0247D /* ViewController.m in Sources */,
+				3BB323EA1EB85D4000D0247D /* AppDelegate.m in Sources */,
+				3BB323E71EB85D4000D0247D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB323F71EB85D4000D0247D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB324001EB85D4000D0247D /* AYAnimationButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB323FD1EB85D4000D0247D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB323E11EB85D4000D0247D /* AYAnimationButton */;
+			targetProxy = 3BB323FC1EB85D4000D0247D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BB323EE1EB85D4000D0247D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB323EF1EB85D4000D0247D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BB323F31EB85D4000D0247D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB323F41EB85D4000D0247D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB324021EB85D4000D0247D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BB324031EB85D4000D0247D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB324051EB85D4000D0247D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526L66BS49;
+				INFOPLIST_FILE = AYAnimationButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.AYAnimationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BB324061EB85D4000D0247D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526L66BS49;
+				INFOPLIST_FILE = AYAnimationButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.AYAnimationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BB324081EB85D4000D0247D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AYAnimationButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.AYAnimationButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYAnimationButton;
+			};
+			name = Debug;
+		};
+		3BB324091EB85D4000D0247D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AYAnimationButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.AYAnimationButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYAnimationButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB323DD1EB85D4000D0247D /* Build configuration list for PBXProject "AYAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB324021EB85D4000D0247D /* Debug */,
+				3BB324031EB85D4000D0247D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB324041EB85D4000D0247D /* Build configuration list for PBXNativeTarget "AYAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB324051EB85D4000D0247D /* Debug */,
+				3BB324061EB85D4000D0247D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BB324071EB85D4000D0247D /* Build configuration list for PBXNativeTarget "AYAnimationButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB324081EB85D4000D0247D /* Debug */,
+				3BB324091EB85D4000D0247D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB323DA1EB85D4000D0247D /* Project object */;
+}
