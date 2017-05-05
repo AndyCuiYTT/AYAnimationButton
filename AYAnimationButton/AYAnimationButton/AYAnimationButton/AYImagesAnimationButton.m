@@ -49,16 +49,22 @@
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
     
-    if (_beginAnmationBlock) {
-        _beginAnmationBlock();
+    UITouch *touch = [touches anyObject];
+    if ([self pointInside:[touch locationInView:self] withEvent:nil]) {
+        
+        if (_beginAnmationBlock) {
+            _beginAnmationBlock();
+        }
+        
+        
+        
+        //关键针动画
+        CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"contents"];
+        animation.duration = _duration ? _duration : kDefaultDuration;
+        animation.delegate = self;
+        animation.values = _images;
+        [self.layer addAnimation:animation forKey:nil];
     }
-    
-    //关键针动画
-    CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"contents"];
-    animation.duration = _duration ? _duration : kDefaultDuration;
-    animation.delegate = self;
-    animation.values = _images;
-    [self.layer addAnimation:animation forKey:nil];
 }
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{

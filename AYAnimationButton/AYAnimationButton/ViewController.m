@@ -23,6 +23,12 @@
     
     AYAnimationButton *btn = [[AYAnimationButton alloc] initWithFrame:CGRectMake(100 , 50, 100, 100)];
     
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(50, 50) radius:50 startAngle:0 endAngle:M_PI * 2 clockwise:YES];
+    CAShapeLayer *layer = [CAShapeLayer layer];
+    layer.path = path.CGPath;
+    btn.layer.mask = layer;
+    
     btn.backgroundColor = [UIColor cyanColor];
     [btn ay_setBtnClickBlock:^{
         NSLog(@"ddddddddddd");
